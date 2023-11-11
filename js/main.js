@@ -1,5 +1,6 @@
 import { generatePhotosArray } from './data.js';
+import { renderThumbnails } from './thumbnail.js';
 
 const PHOTOS_COUNT = 25;
 
-console.log(generatePhotosArray(PHOTOS_COUNT));
+renderThumbnails(generatePhotosArray(PHOTOS_COUNT));
